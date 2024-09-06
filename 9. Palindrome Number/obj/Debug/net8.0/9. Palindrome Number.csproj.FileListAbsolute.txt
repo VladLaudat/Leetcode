@@ -1,4 +1,0 @@
-D:\LeetCode\9. Palindrome Number\obj\Debug\net8.0\9. Palindrome Number.GeneratedMSBuildEditorConfig.editorconfig
-D:\LeetCode\9. Palindrome Number\obj\Debug\net8.0\9. Palindrome Number.AssemblyInfoInputs.cache
-D:\LeetCode\9. Palindrome Number\obj\Debug\net8.0\9. Palindrome Number.AssemblyInfo.cs
-D:\LeetCode\9. Palindrome Number\obj\Debug\net8.0\9. Palindrome Number.csproj.CoreCompileInputs.cache
