@@ -2,19 +2,14 @@
 {
     public int MinCostClimbingStairs(int[] cost)
     {
-        int i = 0;
-        int minCost = 0;
-        if (cost[0] > cost[1])
-            i = 1;
-        minCost = Math.Min(cost[0], cost[1]);
+        int n = cost.Length;
+        int[] dp = new int[n + 1];
 
-        while (i<cost.Length-2)
+        for (int i = 2; i <= n; i++)
         {
-            minCost = minCost + Math.Min(cost[i + 1], cost[i + 2]);
-            if (cost[i+1] < cost[i+2])
-                i=i+1;
-            else
-                i = i+2;
+            dp[i] = Math.Min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2]);
         }
+
+        return dp[n];
     }
 }
