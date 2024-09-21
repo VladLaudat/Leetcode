@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix", "14. Longest Common Prefix.csproj", "{ECB6438A-E1B9-4AA1-BA0C-ACCEEC3D00A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB6438A-E1B9-4AA1-BA0C-ACCEEC3D00A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB6438A-E1B9-4AA1-BA0C-ACCEEC3D00A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB6438A-E1B9-4AA1-BA0C-ACCEEC3D00A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB6438A-E1B9-4AA1-BA0C-ACCEEC3D00A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {576995F7-4F79-40CD-9F31-C8DD916E78C0}
+	EndGlobalSection
+EndGlobal
