@@ -11,21 +11,30 @@
 
 public class Solution
 {
-    public IList<int> PostorderTraversal(TreeNode root)
+    public int MaxDepth(TreeNode root)
     {
-        Stack<TreeNode> stack1 = new Stack<TreeNode>();
-        Stack<TreeNode> stack2 = new Stack<TreeNode>();
-        List<int> list = new List<int>();
-        if(root!=null)
-        stack1.Push(root);
-        while(stack1.Count>0)
+        if (root == null) return 0;
+        Dictionary<TreeNode, int> depths = new Dictionary<TreeNode, int>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        int max = 1;
+        stack.Push(root);
+        depths.Add(root, 1);
+        while(stack.Count>0)
         {
-            root=stack1.Pop();stack2.Push(root);
-            if(root.left!=null) stack1.Push(root.left);
-            if (root.right != null) stack1.Push(root.right);
+            root=stack.Pop();
+            if (root.left != null)
+            {
+                stack.Push(root.left);
+                depths.Add(root.left, depths[root] + 1);
+                max = Math.Max(max, depths[root] + 1);
+            }
+            if (root.right != null)
+            {
+                stack.Push(root.right);
+                depths.Add(root.right, depths[root] + 1);
+                max = Math.Max(max, depths[root] + 1);
+            }
         }
-        while (stack2.Count > 0)
-            list.Add(stack2.Pop().val);
-        return list;
+        return max;
     }
 }

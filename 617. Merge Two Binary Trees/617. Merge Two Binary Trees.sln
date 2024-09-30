@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "617. Merge Two Binary Trees", "617. Merge Two Binary Trees.csproj", "{949690E9-7B48-41D3-9A0B-375A6A5AC443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949690E9-7B48-41D3-9A0B-375A6A5AC443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949690E9-7B48-41D3-9A0B-375A6A5AC443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949690E9-7B48-41D3-9A0B-375A6A5AC443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949690E9-7B48-41D3-9A0B-375A6A5AC443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69292356-C608-4D01-BEC5-A32A4FC0A4B9}
+	EndGlobalSection
+EndGlobal
